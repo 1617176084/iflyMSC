@@ -93,8 +93,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "RX3_iflyMSC", "RX3_iflyMSC/**/*.{h,m}"
   s.vendored_frameworks = 'RX3_iflyMSC/iflyMSC.framework'
-  s.frameworks = 'CoreLocation','CoreTelephony','AVFoundation','AddressBook','AudioToolbox','SystemConfiguration','QuartzCore','CoreGraphics'
-  s.library = 'libz','libc++'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -125,7 +123,8 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+s.frameworks = 'CoreLocation','CoreTelephony','AVFoundation','AddressBook','AudioToolbox','SystemConfiguration','QuartzCore','CoreGraphics'
+s.s.libraries = 'libz','libc++'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
