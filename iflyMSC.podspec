@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "RX3_iflyMSC", "RX3_iflyMSC/**/*.{h,m}"
+  s.source_files  = "RX3_iflyMSC/iflyMSC.framework/Headers/*.h"
   s.vendored_frameworks = 'RX3_iflyMSC/iflyMSC.framework'
   #s.exclude_files = "Classes/Exclude"
 
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
  s.frameworks = 'CoreLocation','CoreTelephony','AVFoundation','AddressBook','AudioToolbox','SystemConfiguration','QuartzCore','CoreGraphics'
- s.libraries = 'libz','libc++'
+ s.libraries = 'z','c++'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
