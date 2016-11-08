@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "iflyMSC"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "iflyMSC 简单的描述"
 
   # This description is used to generate tags and improve search results.
