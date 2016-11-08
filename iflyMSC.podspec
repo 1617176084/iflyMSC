@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "iflyMSC"
-  s.version      = "1.0.2"
-  s.summary      = "iflyMSC 简单的描述"
+  s.version      = "1.144"
+  s.summary      = "科大讯飞iOS语音控件SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,14 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-简单的来说就是科大讯飞的pod库
+简单的来说就是科大讯飞的pod库，
+1.144 版本信息
+20161025
+1.修复Demo显示问题；
+2.修复SDK在xCode8下的内存泄露问题；
+3.修复播放器在预合成模式下的工作异常问题；
+4.适配iOS10部分问题；
+5.修复SDK与外部存在的编译冲突问题；
                    DESC
 
   s.homepage     = "https://github.com/1617176084/iflyMSC"
